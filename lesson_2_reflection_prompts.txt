@@ -16,3 +16,12 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+To compare working directory and staging area
+	git diff
+To compare staging area and Repository
+	git diff —staged
+To discard changes in working directory and staging area
+	git reset
+To compare the added changes
+	git show
